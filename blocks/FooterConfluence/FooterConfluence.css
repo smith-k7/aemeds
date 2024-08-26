@@ -1,0 +1,73 @@
+.footerconfluence-container{
+  background-color: black;
+}
+.footerconfluence-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-columns: 490px 1fr 1fr 1fr 1fr;
+  gap: 10px; 
+  margin-top: 40px;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: 700px auto;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.row-1 .col-1 {
+  grid-column: 1;
+}
+
+.row-1 .col-2,
+.row-1 .col-3,
+.row-1 .col-4,
+.row-1 .col-5 {
+  grid-column: auto;
+}
+
+.row-2 .col-1,
+.row-2 .col-2 {
+  grid-column: auto;
+}
+
+.row-1 .col-1{
+  width: 35%;
+}
+
+.row-1 .col-2 p,
+.row-1 .col-3 p,
+.row-1 .col-4 p,
+.row-1 .col-5 p{
+  color: white;
+}
+
+.row-2 .col-1 p,
+.row-2 .col-2 p{
+  color: white;
+}
+
+.row-2 .col-2 p{
+  margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
